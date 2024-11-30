@@ -1,0 +1,5 @@
+package com.tcs.jdbc_callable_statement_crud.entity;
+
+public class Customer {
+
+}

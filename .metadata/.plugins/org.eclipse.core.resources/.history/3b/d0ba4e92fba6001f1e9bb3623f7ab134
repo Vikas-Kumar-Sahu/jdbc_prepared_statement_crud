@@ -1,0 +1,40 @@
+package com.infosys.jdbc_prepared_statement_crud.controller;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+import com.infosys.jdbc_prepared_statement_crud.entity.Laptop;
+
+class LaptopController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1.INSERT\n2.DELETE\n3.UPDATE\n4.DISPLAYALL");
+		System.out.println("please enter your choice");
+		int choice = sc.nextInt();
+		switch(choice) {
+		case 1: {
+			System.out.println("enter laptop id");
+			int id = sc.nextInt();
+			System.out.println("enter laptop name");
+			String name = sc.next();
+			System.out.println("enter laptop color");
+			String color = sc.next();
+			System.out.println("enter laptop price");
+			double price = sc.nextDouble();
+			
+			System.out.println("enter laptop manufacturing date");
+			String mfd = sc.next();
+			
+			Laptop laptop = new Laptop(id, name, color, price, LocalDate.parse(mfd));
+			
+			
+		}
+		break;
+		}
+	
+	}
+
+}

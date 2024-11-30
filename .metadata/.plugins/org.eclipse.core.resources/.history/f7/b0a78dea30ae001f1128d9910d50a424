@@ -1,0 +1,11 @@
+package com.tcs.jdbc_callable_statement_crud.entity;
+
+public class Customer {
+	
+	private int id;
+	private String name;
+	private String email;
+	private String address;
+	
+	
+}

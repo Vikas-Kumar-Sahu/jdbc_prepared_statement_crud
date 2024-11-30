@@ -1,0 +1,44 @@
+Prepared Statement :-
+It is interface which is execute to dynamaclly query.
+it support placeholder(?) to place the value in particular coln position by using setters().
+
+Setter method of prapared statements :-
+setInt(position of placeholder, value/data);
+
+Syntax to Create Prepared Statement :-
+1. Insert into tableName(col1,col2,.....) values(?,?,......);
+2. Delete from tableName where pk = ?;
+3. Update tableName set col1 = ?, col2 = ? where pk = ?;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
